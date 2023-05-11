@@ -38,11 +38,10 @@ header li {
 }
 
 #hero-section {
-    background: url(img/hero_bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    background-image: url(img/hero_bg.png), radial-gradient(#fff, #e0e0e0);
+    background-image: url(hero_bg.png), radial-gradient(#fff, #e0e0e0);
     width: 100%;
     height: 500px;
     filter: grayscale(100%);
