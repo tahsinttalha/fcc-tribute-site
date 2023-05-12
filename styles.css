@@ -185,7 +185,7 @@ header li {
     margin: 250px auto;
     z-index: 2;
     position: relative;
-    left: 150px;
+    left: 140px;
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 15px 3px #f4f4f475;
@@ -237,7 +237,7 @@ header li {
   }
 
 
-  #second-section {
+  #second-section, #final-section {
     width: 100%;
     height: 1200px;
     background: rgb(14, 19, 42);
@@ -245,7 +245,7 @@ header li {
   }
 
   #title2,
-  #title2-2 {
+  #title2-2{
     text-transform: uppercase;
     font-weight: 300;
     line-height: 65px;
@@ -258,20 +258,22 @@ header li {
   }
 
   #title2 b,
-  #title2-2 b {
+  #title2-2 b, 
+  #title3 b,
+  #title3-2 b{
     font-weight: 900;
   }
 
-  #title2 i {
+  #title2 i{
     font-family: 'DM Serif Display', sans-serif;
     font-size: 50px;
     position: relative;
     top: 40px;
-    left: -90px;
+    left: -95px;
 
   }
 
-  #title2-2 {
+  #title2-2{
     position: relative;
     top: 45px;
     left: 123px;
@@ -320,5 +322,48 @@ header li {
     text-align: justify;
     box-shadow: 0 0 15px 5px #f4f4f450;
   }
+
+  #final-section {
+    background-color: #f4f4f4;
+    color: rgb(14,19,42);
+  }
+  
+  #title3,
+  #title3-2,
+  #title3-3{
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 65px;
+    font-size: 30px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+    max-width: 250px;
+
+  }
+  #title3-2 {
+    margin-bottom: -10px;
+  }
+  #title3-2, #title3-3{
+    position: relative;
+    top: 68px;
+    left: 107px;
+    max-width: 160px;
+    line-height: 7mm;
+   text-align: center;
+   
+  }
+  #title3 i, #title3-3 i{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+    right: 150px;
+
+  }
+  #title3-3 i {
+    border-bottom: 2px solid rgb(14,19,42);
+  }
+
 
 }
